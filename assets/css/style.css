@@ -1,4 +1,4 @@
-main, #gifHolder, #buttonHolder{
+main, #gifHolder, #buttonHolder, #inputHolder{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -8,6 +8,14 @@ main, #gifHolder, #buttonHolder{
 
 #gifHolder, #buttonHolder{
     width: 70vw;
+}
+
+#inputHolder{
+    width: 100%;
+}
+
+#inputHolder>*{
+    width: 30%;
 }
 
 #reset{
